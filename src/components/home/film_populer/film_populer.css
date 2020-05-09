@@ -1,0 +1,25 @@
+h4{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+.film {
+    padding: 20px;
+}
+
+.film:nth-child(1){
+    margin-left: -20px;
+}
+
+.film img {
+    border-radius: 5px;
+}
+
+.film p{
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+a{
+    color: #fff;;
+}

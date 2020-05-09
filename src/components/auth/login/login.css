@@ -1,0 +1,29 @@
+
+
+.container{
+    padding: 30px;
+    color: #fff;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-group input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:#586AD8;
+    color: #fff;
+}
+
+#signin{
+    background-color: #47B5D5;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 10px;
+}

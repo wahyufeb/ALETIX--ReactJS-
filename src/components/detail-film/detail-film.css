@@ -1,0 +1,98 @@
+.detail-film::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    opacity: .6;
+}
+
+.detail-content-film{
+    margin: 40px;
+    margin-top: 15em;
+    background-color: #5B47BB;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    border-radius: 10px;
+    padding: 40px;
+    max-height: 30em;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.detail-content-film img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -14em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.detail-film-desc{
+    margin-top: 20px;
+}
+
+.detail-film-desc h2{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 700;
+    color: #fff;
+}
+
+.detail-film-desc p {
+    font-weight: lighter;
+    color: #fff;
+    opacity: .6;
+    font-size: 14px;
+}
+
+.detail-film-desc h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.detail-film-desc span#rilis {
+    color: #47B5D5;
+    text-transform: uppercase;
+}
+
+.detail-film-schedule{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-film-desc .price{
+    color: #fff;
+    font-size: 26px;
+}
+
+.detail-film-desc .schedule{
+    background-color: #FF9C55;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.detail-film-desc .schedule h4{
+    font-size: 14px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.detail-film-desc .beli-tiket{
+    background-color: #47B5D5;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 20px;
+}
